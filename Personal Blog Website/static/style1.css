@@ -1,0 +1,12 @@
+.pic {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    max-width: 100%;
+}
+
+figcaption {
+    font-family: sans-serif;
+    color: coral;
+}

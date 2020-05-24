@@ -1,4 +1,4 @@
-# Natural Language Processing Project
+# Evaluating a news article with Natural Language Processing
 
 Evaluate news articles with Natural Language Processing.
 

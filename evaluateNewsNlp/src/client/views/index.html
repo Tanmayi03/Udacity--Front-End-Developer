@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Evaluate News Articles</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="title">
+            <h1>Evaluate News Articles with NLP</h1>
+            <span>Tell me the type of news.
+                <br />Positive? Negetive?
+                <br />
+            </span>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form class="" onsubmit="return Client.handleSubmit(event)">
+                <input id="input-url" type="text" name="input" value="" placeholder="https://example.com">
+                <span id="invalid-input-value"></span>
+                <input id="submit-button" type="submit" name="submit-button" value="Submit">
+            </form>
+        </section>
+
+        <section id="result">
+            <h2>Your results are here!</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is created by Tanmayi. Starter code is taken from Udacity repo</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+             
+                navigator.serviceWorker.register('/service-worker.js')
+            })
+        }
+    </script>
+
+</body>
+
+</html>

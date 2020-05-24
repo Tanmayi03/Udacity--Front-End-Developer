@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    min-height: 20rem;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        height: 5rem;
+        line-height: 5rem;
+        margin: 3rem;
+        font-size: 1.15rem;
+        background-color: yellowgreen;
+    }
+}

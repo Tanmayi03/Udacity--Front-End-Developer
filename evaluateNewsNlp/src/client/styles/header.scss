@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    min-height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b8448b;
+}
+
+#title {
+    margin-top: 10rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #065f7a;
+    color: rgb(228, 141, 141);
+
+    h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

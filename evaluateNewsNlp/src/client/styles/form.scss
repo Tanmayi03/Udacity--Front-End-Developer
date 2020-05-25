@@ -1,0 +1,32 @@
+form {
+    width: 100vh;
+    height: 20vh;
+    margin: 10px;
+    border-radius: 10%;
+    border: 3px dashed #e0e40f;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px solid #e04516;
+    text-align: center;
+}
+
+#invalid-input-value {
+    margin: 0.5vh;
+    color: red;
+}
+
+#submit-button {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: 1px dashed #2c6458;
+
+    &:hover {
+        border: 1px #a7ffeb;
+        background-color: mix(#19be98, white, 30);
+    }
+}

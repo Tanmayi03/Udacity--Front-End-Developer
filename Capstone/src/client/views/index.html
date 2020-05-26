@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tour Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div id="application">
+        <h1 id="headline">
+            Tour Planner
+        </h1>
+
+        <span id="form-for-destination">
+            <div class="destination">
+                <label for="destination">Where are you planning to go on a trip?</label>
+                <br />
+                <input type="text" id="destination" placeholder="Switzerland">
+            </div>
+            <div class="date">
+                <label for="date">When do you want to go?</label>
+                <br />
+                <input type="date" id="startDate" placeholder="">
+                <button id="startdate" type="submit">Start Date</button>
+                <br />
+                <label for="date">When do you want to come back?</label>
+                <br />
+            </div>
+        </span>
+        <div id="entry">
+            <span id="entryHolder">
+
+                <div id="image"></div>
+
+                <div id="info">
+                    <div id="country"></div>
+                    <div id="city"></div>
+                    <div id="latitude"></div>
+                    <div id="longitude"></div>
+                </div>
+
+                <div id="weather"></div>
+                <div id="startDate"></div>
+
+            </span>
+        </div>
+    </div>
+
+</body>
+
+</html>

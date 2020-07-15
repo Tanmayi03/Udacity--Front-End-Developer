@@ -1,6 +1,6 @@
 # Natural Language Processing Project to evaluate news articles
 
-Evaluate news articles with Natural Language Processing.
+Evaluating news articles with Natural Language Processing.
 
 This Project is done using Nodejs, Expressjs and Webpack. Aylien API is also used for this.
 

@@ -12,4 +12,4 @@ This Project is done using Nodejs, Expressjs and Webpack. Aylien API is also use
 
 3) npm run start
 
-4) Open localhost : 3000 in any browser
+4) Open localhost : 3000 in any browser of your choice

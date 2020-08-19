@@ -1,4 +1,4 @@
-This is the final capstone project of Front End Developer nanodegree program.
+This is the final capstone project of Front End Developer nanodegree program
 
 This is a travel app.
 
